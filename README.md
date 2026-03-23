@@ -1,6 +1,6 @@
 # 🎭 Emotion_Detect_AI
 
-> **Detect human emotions from text using Machine Learning · NLP · Gradio UI**
+> **Detect human emotions from text using Machine Learning · NLP · Tkinter**
 
 ---
 
@@ -88,7 +88,7 @@ The project trains and compares **four classic ML classifiers** — Naive Bayes,
 | **ML Library** | Scikit-learn |
 | **Data Processing** | Pandas · NumPy |
 | **Visualization** | Matplotlib · Seaborn |
-| **UI / Frontend** | Gradio |
+| **UI / Frontend** | Tkinter |
 | **Model Serialization** | Pickle |
 | **Runtime** | Jupyter Notebook / Google Colab |
 
@@ -312,7 +312,7 @@ Open `Language_Recognition_NLP.ipynb` and run the cells in order:
 | **Cell 47** | Final conclusions |
 | **Cell 48** | Save SVM model & vectorizer as `.pkl` files |
 
-> The **Gradio UI** launches automatically after the model is trained — a public shareable URL is printed in the output.
+> The **Tkinter** launches automatically after the model is trained — a public shareable URL is printed in the output.
 
 ---
 
