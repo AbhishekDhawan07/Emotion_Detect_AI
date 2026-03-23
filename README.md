@@ -38,42 +38,42 @@ The project trains and compares **four classic ML classifiers** — Naive Bayes,
 ## 🖼️ Screenshots
 
 ### 😡 Anger Detection
-![Anger](https://github.com/AbhishekDhawan07/Emotion_Detect_AI/blob/main/Anger.png?raw=true)
+![Anger](https://github.com/user-attachments/assets/5dc6e62e-16fc-4936-8af2-8ecd015b07bf)
 
 *Input: "I am absolutely livid and frustrated with this situation right now" → **ANGER** detected with 36.1% confidence*
 
 ---
 
 ### 😄 Joy Detection
-![Joy](https://github.com/AbhishekDhawan07/Emotion_Detect_AI/blob/main/Joy.png?raw=true)
+![Joy](https://github.com/user-attachments/assets/4e64ac86-2f70-49ed-bafb-043a23d67b1c)
 
 *Input: "I am so excited and thrilled about this wonderful news today" → **JOY** detected with 85.5% confidence*
 
 ---
 
 ### ❤️ Love Detection
-![Love](https://github.com/AbhishekDhawan07/Emotion_Detect_AI/blob/main/Love.png?raw=true)
+![Love](https://github.com/user-attachments/assets/1aeede55-e59a-4eb5-88fa-2012e01daa29)
 
 *Input: "I feel so warm and affectionate whenever I am with you" → **LOVE** detected with 32.4% confidence*
 
 ---
 
 ### 😢 Sadness Detection
-![Sadness](https://github.com/AbhishekDhawan07/Emotion_Detect_AI/blob/main/Sadness.png?raw=true)
+![Sadness](https://github.com/user-attachments/assets/5eee6f97-64a8-4ad5-b08e-edf2d890f173)
 
 *Input: "I feel so lonely and empty inside nothing makes me happy anymore" → **SADNESS** detected with 71.1% confidence*
 
 ---
 
 ### 😲 Surprise Detection
-![Surprise](https://github.com/AbhishekDhawan07/Emotion_Detect_AI/blob/main/Surprise.png?raw=true)
+![Surprise](https://github.com/user-attachments/assets/64a0998a-2e61-410d-a546-55e5bbcd03f7)
 
 *Input: "I am so shocked and stunned I never saw this coming at all" → **SURPRISE** detected with 81.7% confidence*
 
 ---
 
 ### 😨 Fear Detection
-![Fear](https://github.com/AbhishekDhawan07/Emotion_Detect_AI/blob/main/Fear.png?raw=true)
+![Fear](https://github.com/user-attachments/assets/d1fc1ff8-a17e-4763-9659-a81e0e501479)
 
 *Input: "I am so scared and anxious about my results tomorrow" → **FEAR** detected with 79.4% confidence*
 
