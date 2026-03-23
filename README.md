@@ -1,4 +1,4 @@
-# 🎭 Emotion Detector — NLP & Machine Learning
+# 🎭 Emotion_Detect_AI
 
 > **Detect human emotions from text using Machine Learning · NLP · Gradio UI**
 
