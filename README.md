@@ -35,8 +35,7 @@ The project trains and compares **four classic ML classifiers** — Naive Bayes,
 
 ---
 
-## 🖼️ Screenshots
-
+## 🖼️ Demo
 ### 😡 Anger Detection
 ![Anger](https://github.com/user-attachments/assets/5dc6e62e-16fc-4936-8af2-8ecd015b07bf)
 
