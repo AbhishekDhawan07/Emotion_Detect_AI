@@ -257,6 +257,9 @@ Emotion_Detect_AI/
 ├── Sadness.png                       # Screenshot — Sadness detection
 ├── Surprise.png                      # Screenshot — Surprise detection
 ├── Fear.png                          # Screenshot — Fear detection
+|
+|
+|
 └── README.md                         # This file
 ```
 
