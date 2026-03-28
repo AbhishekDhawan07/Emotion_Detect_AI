@@ -245,22 +245,19 @@ Raw Dataset (language.csv)
 
 ## 📁 Project Structure
 ```
-Emotion_Detect_AI/
+├── README.md                              # Project overview, setup, and usage instructions
 │
-├── Language_Recognition_NLP.ipynb   # Main Jupyter Notebook (training + EDA)
-├── language.csv                      # Dataset (download from Drive link above)
-├── svm_model.pkl                     # Saved best model (Linear SVM)
-├── tfidf_vectorizer.pkl              # Saved TF-IDF vectorizer
-├── Anger.png                         # Screenshot — Anger detection
-├── Joy.png                           # Screenshot — Joy detection
-├── Love.png                          # Screenshot — Love detection
-├── Sadness.png                       # Screenshot — Sadness detection
-├── Surprise.png                      # Screenshot — Surprise detection
-├── Fear.png                          # Screenshot — Fear detection
-|
-|
-|
-└── README.md                         # This file
+├── Emotion_Detect_AI/                     # Main project folder
+│   ├── Language_Recognition_NLP.ipynb     # Main Jupyter Notebook (training + EDA)
+│   ├── language.csv                       # Dataset (download from Drive link above)
+│   ├── svm_model.pkl                      # Saved best model (Linear SVM)
+│   ├── tfidf_vectorizer.pkl               # Saved TF-IDF vectorizer
+│   ├── Anger.png                          # Screenshot — Anger detection
+│   ├── Joy.png                            # Screenshot — Joy detection
+│   ├── Love.png                           # Screenshot — Love detection
+│   ├── Sadness.png                        # Screenshot — Sadness detection
+│   ├── Surprise.png                       # Screenshot — Surprise detection
+│   └── Fear.png                           # Screenshot — Fear detection
 ```
 
 ---
