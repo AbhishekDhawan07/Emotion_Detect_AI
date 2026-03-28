@@ -29,7 +29,7 @@
 
 ## 🧠 About the Project
 
-**Emotion Detector** is an NLP-powered machine learning project that identifies the **human emotion** behind any typed sentence. Given a sentence, the model predicts whether the emotion is **Joy, Sadness, Anger, Fear, Love, or Surprise** — and also shows the **confidence probability** for each emotion.
+**Emotion Detector AI** is an NLP-powered machine learning project that identifies the **human emotion** behind any typed sentence. Given a sentence, the model predicts whether the emotion is **Joy, Sadness, Anger, Fear, Love, or Surprise** — and also shows the **confidence probability** for each emotion.
 
 The project trains and compares **four classic ML classifiers** — Naive Bayes, Logistic Regression, SVM, and Random Forest — using text vectorization techniques like Bag-of-Words and TF-IDF with character n-grams. The best-performing model (Linear SVM with **89.66% test accuracy**) is deployed through a beautiful **Gradio web interface** with emoji-based result cards and probability bar charts.
 
