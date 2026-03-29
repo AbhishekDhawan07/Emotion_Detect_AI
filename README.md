@@ -1,6 +1,6 @@
 # 🎭 Emotion Detect AI
 
-> **Detect human emotions from text using Machine Learning · NLP · Gradio**
+> **Detect human emotions from text using Machine Learning  NLP  Gradio**
 
 ---
 
@@ -98,7 +98,7 @@ The project trains and compares **four classic ML classifiers** i.e. Naive Bayes
 
 ## ✨ Features
 
-- 🎯 **6-Class Emotion Classification** — Detects Joy, Sadness, Anger, Fear, Love, and Surprise
+- 🎯 **6-Class Emotion Classification** - Detects Joy, Sadness, Anger, Fear, Love, and Surprise
 - 📊 **Probability Bar Chart** - Shows confidence scores for all 6 emotions simultaneously
 - 🃏 **Emotion Result Card** - Color-coded card with emoji, emotion name, description, and confidence %
 - ⚡ **Quick Example Buttons** - Click pre-loaded sentences to try the model instantly
@@ -302,7 +302,7 @@ Open `Language_Recognition_NLP.ipynb` and run the cells in order:
 |---|---|
 | **Cell 0** | Import all libraries |
 | **Cell 1–4** | Load dataset, check nulls, explore labels |
-| **Cell 5–6** | EDA — Engineer 13 text features |
+| **Cell 5–6** | EDA - Engineer 13 text features |
 | **Cell 7–8** | Text preprocessing (lowercase, remove punctuation) |
 | **Cell 9–10** | Train/test split (80/20 stratified) |
 | **Cell 11** | Build BoW and TF-IDF vectorizers |
@@ -310,7 +310,7 @@ Open `Language_Recognition_NLP.ipynb` and run the cells in order:
 | **Cell 20–27** | Train & evaluate Logistic Regression |
 | **Cell 28–35** | Train & evaluate Linear SVM |
 | **Cell 36–43** | Train & evaluate Random Forest |
-| **Cell 44–46** | Model comparison — all metrics side by side |
+| **Cell 44–46** | Model comparison - all metrics side by side |
 | **Cell 47** | Final conclusions |
 | **Cell 48** | Save SVM model & vectorizer as `.pkl` files |
 
@@ -347,10 +347,10 @@ Open `Language_Recognition_NLP.ipynb` and run the cells in order:
 
 | # | Finding |
 |---|---|
-| 🥇 | **Best Overall Model — Linear SVM** with ~98.6% test accuracy using character-level TF-IDF n-grams |
-| 🥈 | **Best Balanced Model — Logistic Regression** with the smallest gap between train (~98.4%) and test (~98.2%) accuracy |
-| 🥉 | **Moderate Performer — Naive Bayes** achieved ~94.3% test accuracy; fast baseline but limited by BoW features |
-| 4️⃣ | **Most Stable — Random Forest** showed no overfitting but lower accuracy (~92.8%) due to limited word-level features |
+| 🥇 | **Best Overall Model - Linear SVM** with ~98.6% test accuracy using character-level TF-IDF n-grams |
+| 🥈 | **Best Balanced Model - Logistic Regression** with the smallest gap between train (~98.4%) and test (~98.2%) accuracy |
+| 🥉 | **Moderate Performer - Naive Bayes** achieved ~94.3% test accuracy; fast baseline but limited by BoW features |
+| 4️⃣ | **Most Stable - Random Forest** showed no overfitting but lower accuracy (~92.8%) due to limited word-level features |
 
 > **Character-level TF-IDF n-grams (1–3)** proved to be the most effective feature representation, capturing subtle patterns in word morphology that distinguish emotions better than word-level BoW.
 
