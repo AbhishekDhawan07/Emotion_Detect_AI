@@ -29,9 +29,9 @@
 
 ## 🧠 About the Project
 
-**Emotion Detector AI** is an NLP-powered machine learning project that identifies the **human emotion** behind any typed sentence. Given a sentence, the model predicts whether the emotion is **Joy, Sadness, Anger, Fear, Love, or Surprise** — and also shows the **confidence probability** for each emotion.
+**Emotion Detector AI** is an NLP-powered machine learning project that identifies the **human emotion** behind any typed sentence. Given a sentence, the model predicts whether the emotion is **Joy, Sadness, Anger, Fear, Love, or Surprise** and also shows the **confidence probability** for each emotion.
 
-The project trains and compares **four classic ML classifiers** — Naive Bayes, Logistic Regression, SVM, and Random Forest — using text vectorization techniques like Bag-of-Words and TF-IDF with character n-grams. The best-performing model (Linear SVM with **89.66% test accuracy**) is deployed through a beautiful **Gradio web interface** with emoji-based result cards and probability bar charts.
+The project trains and compares **four classic ML classifiers** i.e. Naive Bayes, Logistic Regression, SVM, and Random Forest using text vectorization techniques like Bag-of-Words and TF-IDF with character n-grams. The best-performing model (Linear SVM with **89.66% test accuracy**) is deployed through a beautiful **Gradio web interface** with emoji-based result cards and probability bar charts.
 
 ---
 
@@ -55,28 +55,28 @@ The project trains and compares **four classic ML classifiers** — Naive Bayes,
 ### ❤️ Love Detection
 ![Love](https://github.com/user-attachments/assets/1aeede55-e59a-4eb5-88fa-2012e01daa29)
 
-*Input: "I feel so warm and affectionate whenever I am with you" → **LOVE** detected with 32.4% confidence*
+*Input: "I feel so warm and affectionate whenever I am with you" - **LOVE** detected with 32.4% confidence*
 
 ---
 
 ### 😢 Sadness Detection
 ![Sadness](https://github.com/user-attachments/assets/5eee6f97-64a8-4ad5-b08e-edf2d890f173)
 
-*Input: "I feel so lonely and empty inside nothing makes me happy anymore" → **SADNESS** detected with 71.1% confidence*
+*Input: "I feel so lonely and empty inside nothing makes me happy anymore" - **SADNESS** detected with 71.1% confidence*
 
 ---
 
 ### 😲 Surprise Detection
 ![Surprise](https://github.com/user-attachments/assets/64a0998a-2e61-410d-a546-55e5bbcd03f7)
 
-*Input: "I am so shocked and stunned I never saw this coming at all" → **SURPRISE** detected with 81.7% confidence*
+*Input: "I am so shocked and stunned I never saw this coming at all" - **SURPRISE** detected with 81.7% confidence*
 
 ---
 
 ### 😨 Fear Detection
 ![Fear](https://github.com/user-attachments/assets/d1fc1ff8-a17e-4763-9659-a81e0e501479)
 
-*Input: "I am so scared and anxious about my results tomorrow" → **FEAR** detected with 79.4% confidence*
+*Input: "I am so scared and anxious about my results tomorrow" - **FEAR** detected with 79.4% confidence*
 
 ---
 
@@ -99,15 +99,15 @@ The project trains and compares **four classic ML classifiers** — Naive Bayes,
 ## ✨ Features
 
 - 🎯 **6-Class Emotion Classification** — Detects Joy, Sadness, Anger, Fear, Love, and Surprise
-- 📊 **Probability Bar Chart** — Shows confidence scores for all 6 emotions simultaneously
-- 🃏 **Emotion Result Card** — Color-coded card with emoji, emotion name, description, and confidence %
-- ⚡ **Quick Example Buttons** — Click pre-loaded sentences to try the model instantly
-- 🤖 **4 ML Models Trained** — Naive Bayes, Logistic Regression, SVM, Random Forest
-- 📈 **Full EDA Pipeline** — 13 engineered text features including char count, word count, vowel count, punctuation count and more
-- 🔍 **Model Comparison** — Side-by-side performance comparison of all 4 models
-- 📉 **Confusion Matrices** — Visual confusion matrices for each model
-- 💾 **Model Export** — Best model (SVM) and vectorizer saved as `.pkl` files for deployment
-- 🌐 **Gradio Web Interface** — Clean, shareable browser-based UI
+- 📊 **Probability Bar Chart** - Shows confidence scores for all 6 emotions simultaneously
+- 🃏 **Emotion Result Card** - Color-coded card with emoji, emotion name, description, and confidence %
+- ⚡ **Quick Example Buttons** - Click pre-loaded sentences to try the model instantly
+- 🤖 **4 ML Models Trained** - Naive Bayes, Logistic Regression, SVM, Random Forest
+- 📈 **Full EDA Pipeline** - 13 engineered text features including char count, word count, vowel count, punctuation count and more
+- 🔍 **Model Comparison** - Side-by-side performance comparison of all 4 models
+- 📉 **Confusion Matrices** - Visual confusion matrices for each model
+- 💾 **Model Export** - Best model (SVM) and vectorizer saved as `.pkl` files for deployment
+- 🌐 **Gradio Web Interface** - Clean, shareable browser-based UI
 
 ---
 
@@ -137,7 +137,7 @@ The project trains and compares **four classic ML classifiers** — Naive Bayes,
 - **Vectorizer:** TF-IDF with character n-grams (1–3), max 50,000 features
 - **Training Accuracy:** ~98.4%
 - **Test Accuracy:** ~98.2%
-- **Strengths:** Best balance between training and test accuracy — minimal overfitting
+- **Strengths:** Best balance between training and test accuracy - minimal overfitting
 - **Note:** Most interpretable model with excellent generalisation
 
 ### 3. 🏆 Linear SVM *(Best Model — Used in App)*
