@@ -41,14 +41,14 @@ The project trains and compares **four classic ML classifiers** i.e. Naive Bayes
 ### 😡 Anger Detection
 ![Anger](https://github.com/user-attachments/assets/5dc6e62e-16fc-4936-8af2-8ecd015b07bf)
 
-*Input: "I am absolutely livid and frustrated with this situation right now" → **ANGER** detected with 36.1% confidence*
+*Input: "I am absolutely livid and frustrated with this situation right now" - **ANGER** detected with 36.1% confidence*
 
 ---
 
 ### 😄 Joy Detection
 ![Joy](https://github.com/user-attachments/assets/4e64ac86-2f70-49ed-bafb-043a23d67b1c)
 
-*Input: "I am so excited and thrilled about this wonderful news today" → **JOY** detected with 85.5% confidence*
+*Input: "I am so excited and thrilled about this wonderful news today" - **JOY** detected with 85.5% confidence*
 
 ---
 
