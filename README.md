@@ -1,6 +1,6 @@
 # 🎭 Emotion Detect AI
 
-> **Detect human emotions from text using Machine Learning  NLP  Gradio**
+> **Detect human emotions from text using Machine Learning, NLP and Gradio**
 
 ---
 
